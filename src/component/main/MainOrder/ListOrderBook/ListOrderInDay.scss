@@ -1,0 +1,61 @@
+.comeinand1_text-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin-top: 5px;
+  padding: 6px;
+  &:nth-child(even) {
+    background-color: rgb(58, 61, 72);
+  }
+  input {
+    margin-right: 10px;
+  }
+  span {
+    color: #bb2c42;
+    font-size: 1.3rem;
+    // font-weight: bold;
+  }
+
+  .comeinand {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    span {
+      justify-self: start;
+    }
+  }
+  .code {
+    font-size: 1.4rem;
+    font-weight: 510;
+    color: white;
+  }
+  .joint {
+    color: white;
+  }
+  .sort {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Hourglass {
+    color: #f19925;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .minus {
+    color: #d80027;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .time {
+    font-size: 1.3rem;
+    color: #ff3459;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
+
+.loadingImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}

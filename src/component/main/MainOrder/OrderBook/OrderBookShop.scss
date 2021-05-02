@@ -1,0 +1,49 @@
+.orderBookShop {
+  ul {
+    list-style: none;
+
+    padding: 0 10px;
+    padding-right: 30px;
+    li {
+      display: flex;
+      margin-top: 10px;
+      label {
+        flex: 20%;
+        color: whitesmoke;
+        font-size: 1.4rem;
+      }
+      input {
+        flex: 60%;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        &:focus {
+          outline: none;
+        }
+      }
+      &:nth-of-type(4) {
+        .inputBt {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          span {
+            justify-self: end;
+            button {
+              width: 30px;
+              height: 100%;
+              border-radius: 2px;
+              border: none;
+              margin-right: 5px;
+              border: 1px solid white;
+              &:nth-of-type(1) {
+                background-color: #929292;
+              }
+              &:nth-of-type(2) {
+                background-color: #f7941d;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.item_input {
+  position: relative;
+  .showSelect {
+    position: absolute;
+    z-index: 2;
+    bottom: -45px;
+    left: 113px;
+    background-color: rgb(24, 21, 21);
+    padding: 10px 5px;
+    border-radius: 5px;
+    span {
+      padding: 5px;
+      border: 1px solid white;
+      margin-left: 10px;
+      color: white;
+      font-size: 1.4rem;
+      cursor: pointer;
+
+      border-radius: 5px;
+      &:nth-of-type(1) {
+        margin-left: 0;
+      }
+      &:hover {
+        background-color: rgb(94, 74, 74);
+      }
+    }
+  }
+}
